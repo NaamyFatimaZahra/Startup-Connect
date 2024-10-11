@@ -3,22 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.logo{
+width: 6rem;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 /* Navigation Bar */
 nav {
-    background-color: #333;
-    color: white;
+    background-color: #071E22;
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -29,29 +37,41 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    font-size: small;
+    
 }
 
 nav ul li {
     margin: 0 15px;
+
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
     font-size: 1.2em;
+    padding-bottom: 5px;
+    color:#8fe6df;
+    border-bottom: 2px solid #8fe6df;
+}
+nav ul li a:active {
+
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 nav ul li a:hover {
-    color: #4CAF50;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Hero Section */
 #hero {
-    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
-    color: white;
+    background: url('https://news.harvard.edu/wp-content/uploads/2024/06/Empty-Office-2048x1366-1.jpg') no-repeat center center/cover;
+    color: #8fe6df;
     text-align: center;
     padding: 150px 0;
     position: relative;
+filter: brightness();
 }
 
 #hero::before {
@@ -200,9 +220,10 @@ nav ul li a:hover {
 /* Footer */
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #101321;
     color: white;
     padding: 40px 0;
+
     
 }
 
@@ -221,7 +242,7 @@ footer {
 .footer-section h3 {
     margin-bottom: 15px;
     font-size: 1.5em;
-    color: #4CAF50;
+    color: #8fe6df;
 }
 
 .footer-section p {
@@ -270,3 +291,6 @@ footer p {
     color: #ccc;
 }
 
+i{
+    color: #8fe6df;
+}
