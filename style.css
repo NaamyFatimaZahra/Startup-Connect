@@ -182,29 +182,12 @@ filter: brightness();
 }
 
 .contact-form {
-    flex: 1;
-    max-width: 500px;
+    min-width: 20rem;
+    max-width: 30rem; 
+
 }
 
-.contact-image {
-    flex: 1;
-    padding: 20px;
-}
 
-.contact-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-#contact h2 {
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-#contact form {
-    max-width: 100%;
-}
 
 #contact label {
     display: block;
@@ -228,7 +211,11 @@ filter: brightness();
     border-radius: 5px;
     cursor: pointer;
 }
-
+#contact img{
+    min-width: 11rem;
+    max-width: 27rem;
+    border-radius: 1rem;
+}
 
 /* services */
 .services {
@@ -313,9 +300,7 @@ background-color: #f4c09575;
 transform: translate(-50%,-50%);
 padding: 20rem;
 }
-.projects-card i:hover{
-  transform: scale(1);
-}
+
 
 /* Footer */
 footer {
@@ -332,6 +317,6 @@ footer {
     display: flex;
     gap: 12px;
 }
-.footer i{
+footer i{
     color: #8fe6df;
 }
