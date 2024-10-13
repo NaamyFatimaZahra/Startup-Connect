@@ -120,7 +120,11 @@ filter: brightness();
 }
 
 #about h2 {
-    margin-bottom: 20px;
+   
+    text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+    color: #333;
 }
 
 #about p {
@@ -156,7 +160,7 @@ filter: brightness();
 
 .card h3 {
     margin-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1.2rem;
 }
 
 .card p {
@@ -226,7 +230,93 @@ filter: brightness();
 }
 
 
-/* Footer */
+/* services */
+.services {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+.allServices-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+      color: #333;
+}
+
+.service-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    height: 13rem;
+    
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    color: #8fe6df;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+/*projects*/
+.projects{
+    min-height: 100vh;
+}
+.projects h2{
+    text-align: center;
+    padding-top:2rem ;
+}
+.all-projects{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+.projects-card{
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    overflow: hidden;
+}
+.all-projects img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    filter: brightness(0.5);
+    opacity: 5.2;
+}
+.projects i{
+
+
+position: absolute;
+left: 50%;
+top: 50%;
+color: #F4C095;
+background-color: #f4c09575;
+transform: translate(-50%,-50%);
+padding: 20rem;
+}
+.projects-card i:hover{
+  transform: scale(1);
+}
+
 /* Footer */
 footer {
     background-color: #071E22;
@@ -238,18 +328,10 @@ footer {
     flex-direction: column;
     gap: 1.3rem;
 }
-
-
-
-
-
-
-
-
 .social-icons{
     display: flex;
     gap: 12px;
 }
-i{
+.footer i{
     color: #8fe6df;
 }
